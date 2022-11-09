@@ -1,0 +1,76 @@
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+form{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-menu{
+    background: #E7E9EB;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.btn-menu:hover{
+    background-color: rgb(167, 167, 167);
+    transition: 1s;
+}
+.header-input{
+    position: relative;
+}
+.input-search{
+    height: 100%;
+    width: 100%;
+    width: 50px;
+    padding: 5px 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background: #E7E9EB;
+
+}
+.search-icon{
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+    font-size: 14px;
+}
+.logo{
+    height: 50px;
+    object-fit: fill;
+}
+.header-option-propeties{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+.header-payment-box{
+    width: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-payment-box > i {
+    cursor: pointer;
+}
+.header-select{
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-select > select{
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 2px;
+    background: #E7E9EB;
+    border: none;
+}
